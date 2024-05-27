@@ -34,37 +34,25 @@ let dataToSendRewardBase = {};
 
 const {
   waitResult_short1,
-} = require("C:/Users/hwdeb/Documents/p_bots/AdminPanel/server/get_overview_positions_PCS_BOT_1_short.js");
+} = require("./get_overview_positions_PCS_BOT_1_short.js");
 const {
   waitResult_short2,
-} = require("C:/Users/hwdeb/Documents/p_bots/AdminPanel/server/get_overview_positions_PCS_BOT_2_short.js");
+} = require("./get_overview_positions_PCS_BOT_2_short.js");
 const {
   waitResult_short3,
-} = require("C:/Users/hwdeb/Documents/p_bots/AdminPanel/server/get_overview_positions_PCS_BOT_3_short.js");
+} = require("./get_overview_positions_PCS_BOT_3_short.js");
 const {
   waitResult_short5,
-} = require("C:/Users/hwdeb/Documents/p_bots/AdminPanel/server/get_overview_positions_PCS_BOT_5_short.js");
+} = require("./get_overview_positions_PCS_BOT_5_short.js");
 
-const {
-  waitResult1,
-} = require("C:/Users/hwdeb/Documents/p_bots/AdminPanel/server/get_overview_positions_PCS_BOT_1.js");
-const {
-  waitResult2,
-} = require("C:/Users/hwdeb/Documents/p_bots/AdminPanel/server/get_overview_positions_PCS_BOT_2.js");
-const {
-  waitResult3,
-} = require("C:/Users/hwdeb/Documents/p_bots/AdminPanel/server/get_overview_positions_PCS_BOT_3.js");
-const {
-  waitResult5,
-} = require("C:/Users/hwdeb/Documents/p_bots/AdminPanel/server/get_overview_positions_PCS_BOT_5.js");
+const { waitResult1 } = require("./get_overview_positions_PCS_BOT_1.js");
+const { waitResult2 } = require("./get_overview_positions_PCS_BOT_2.js");
+const { waitResult3 } = require("./get_overview_positions_PCS_BOT_3.js");
+const { waitResult5 } = require("./get_overview_positions_PCS_BOT_5.js");
 
-const {
-  waitResultRewards,
-} = require("C:/Users/hwdeb/Documents/p_bots/AdminPanel/server/get_info_reward_wallet_BSC.js");
+const { waitResultRewards } = require("./get_info_reward_wallet_BSC.js");
 
-const {
-  waitResultRewardsBase,
-} = require("C:/Users/hwdeb/Documents/p_bots/AdminPanel/server/get_info_reward_wallet_BASE.js");
+const { waitResultRewardsBase } = require("./get_info_reward_wallet_BASE.js");
 
 // Define a function to use as the callback
 function handleSomeVariable_short1(exportUsdValueAll1) {
